@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'KPSwipeInSlider_Example' do
+  pod 'KPSwipeInSlider', :path => '../'
+
+  target 'KPSwipeInSlider_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
