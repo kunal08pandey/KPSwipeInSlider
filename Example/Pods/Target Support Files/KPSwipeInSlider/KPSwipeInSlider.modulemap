@@ -1,0 +1,6 @@
+framework module KPSwipeInSlider {
+  umbrella header "KPSwipeInSlider-umbrella.h"
+
+  export *
+  module * { export * }
+}

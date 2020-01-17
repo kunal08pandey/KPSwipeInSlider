@@ -1,0 +1,16 @@
+PODS:
+  - KPSwipeInSlider (0.1.0)
+
+DEPENDENCIES:
+  - KPSwipeInSlider (from `../`)
+
+EXTERNAL SOURCES:
+  KPSwipeInSlider:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KPSwipeInSlider: de659522ea17c64f7bdb0548c26ca9942486f4f7
+
+PODFILE CHECKSUM: f3296321721fb6f60d6b1ba3f911e85e5d41fed5
+
+COCOAPODS: 1.8.4

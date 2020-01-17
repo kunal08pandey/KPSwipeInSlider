@@ -1,0 +1,22 @@
+{
+  "name": "KPSwipeInSlider",
+  "version": "0.1.0",
+  "summary": "A short description of KPSwipeInSlider.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Kunal Pandey/KPSwipeInSlider",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Kunal Pandey": "kpandey@dminc.com"
+  },
+  "source": {
+    "git": "https://github.com/Kunal Pandey/KPSwipeInSlider.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "KPSwipeInSlider/Classes/**/*"
+}

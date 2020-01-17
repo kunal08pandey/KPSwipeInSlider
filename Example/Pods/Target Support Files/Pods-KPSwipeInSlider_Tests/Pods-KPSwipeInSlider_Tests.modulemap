@@ -1,0 +1,6 @@
+framework module Pods_KPSwipeInSlider_Tests {
+  umbrella header "Pods-KPSwipeInSlider_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

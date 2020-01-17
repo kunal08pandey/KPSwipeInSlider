@@ -27,3 +27,4 @@ Kunal Pandey, kpandey@dminc.com
 ## License
 
 KPSwipeInSlider is available under the MIT license. See the LICENSE file for more info.
+# KPSwipeInSlider

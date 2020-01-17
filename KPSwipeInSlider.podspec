@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Kunal Pandey/KPSwipeInSlider'
+  s.homepage         = 'https://github.com/Kunal08Pandey/KPSwipeInSlider'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Kunal Pandey' => 'kpandey@dminc.com' }
-  s.source           = { :git => 'https://github.com/Kunal Pandey/KPSwipeInSlider.git', :tag => s.version.to_s }
+  s.author           = { 'Kunal Pandey' => 'kunal08.pandey@gmail.com' }
+  s.source           = { :git => 'https://github.com/Kunal08Pandey/KPSwipeInSlider.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
