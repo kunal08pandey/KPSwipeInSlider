@@ -2,21 +2,23 @@
   "name": "KPSwipeInSlider",
   "version": "0.1.0",
   "summary": "A short description of KPSwipeInSlider.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Kunal Pandey/KPSwipeInSlider",
+  "description": "KPSwipeIn Slider is a Control that gives a swipe in feature like iphone default                        control center",
+  "homepage": "https://github.com/Kunal08Pandey/KPSwipeInSlider",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "Kunal Pandey": "kpandey@dminc.com"
+    "Kunal Pandey": "kunal08.pandey@gmail.com"
   },
   "source": {
-    "git": "https://github.com/Kunal Pandey/KPSwipeInSlider.git",
+    "git": "https://github.com/Kunal08Pandey/KPSwipeInSlider.git",
     "tag": "0.1.0"
   },
+  "swift_versions": "4.0",
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "KPSwipeInSlider/Classes/**/*"
+  "source_files": "KPSwipeInSlider/Classes/**/*",
+  "swift_version": "4.0"
 }

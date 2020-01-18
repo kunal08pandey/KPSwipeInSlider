@@ -7,12 +7,14 @@
 //
 
 import UIKit
+import KPSwipeInSlider
 
 class ViewController: UIViewController {
 
+  @IBOutlet weak var swipeInControl: SwipeInControlView!
+  
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
     override func didReceiveMemoryWarning() {

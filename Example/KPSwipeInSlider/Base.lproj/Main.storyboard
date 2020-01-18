@@ -23,56 +23,69 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3b0-Se-bHD">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a3o-TQ-V3Q" customClass="SwipeInControlView" customModule="KPSwipeInSlider">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" id="Rwj-hP-69h" customClass="SwipeInControlView" customModule="KPSwipeInSlider">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                    <subviews>
-                                        <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="507-m8-SAg">
-                                            <rect key="frame" x="0.0" y="0.0" width="135" height="539"/>
-                                            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="niv-9e-GVC">
-                                                <rect key="frame" x="0.0" y="0.0" width="135" height="539"/>
-                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                            </view>
+                                <subviews>
+                                    <visualEffectView opaque="NO" contentMode="scaleToFill" id="3b0-Se-bHD">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Rwj-hP-69h">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <subviews>
+                                                <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="507-m8-SAg">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                                                    <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="niv-9e-GVC">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                    </view>
+                                                    <vibrancyEffect>
+                                                        <blurEffect style="regular"/>
+                                                    </vibrancyEffect>
+                                                </visualEffectView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swipe In Control" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e9o-nC-YAi">
+                                                    <rect key="frame" x="94.5" y="234" width="186" height="23"/>
+                                                    <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="23"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="by Kunal Pandey" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="01A-7v-0yG">
+                                                    <rect key="frame" x="173.5" y="276" width="107" height="13"/>
+                                                    <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="13"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
                                             <constraints>
-                                                <constraint firstAttribute="width" constant="135" id="Wbi-56-QBw"/>
-                                                <constraint firstAttribute="height" constant="539" id="tj6-1g-MXv"/>
+                                                <constraint firstItem="e9o-nC-YAi" firstAttribute="centerX" secondItem="Rwj-hP-69h" secondAttribute="centerX" id="4XA-2n-m7r"/>
+                                                <constraint firstAttribute="trailing" secondItem="507-m8-SAg" secondAttribute="trailing" id="7vI-Rz-FG6"/>
+                                                <constraint firstAttribute="bottom" secondItem="507-m8-SAg" secondAttribute="bottom" constant="20" symbolic="YES" id="CJq-8h-V3O"/>
+                                                <constraint firstItem="01A-7v-0yG" firstAttribute="top" secondItem="Rwj-hP-69h" secondAttribute="top" constant="276" id="DNM-Ly-MiK"/>
+                                                <constraint firstItem="507-m8-SAg" firstAttribute="top" secondItem="Rwj-hP-69h" secondAttribute="top" id="E31-fg-6So"/>
+                                                <constraint firstItem="01A-7v-0yG" firstAttribute="leading" secondItem="Rwj-hP-69h" secondAttribute="leading" constant="173.5" id="KzG-ie-Y8T"/>
+                                                <constraint firstItem="01A-7v-0yG" firstAttribute="trailing" secondItem="e9o-nC-YAi" secondAttribute="trailing" id="et4-Kv-GtU"/>
+                                                <constraint firstItem="507-m8-SAg" firstAttribute="leading" secondItem="Rwj-hP-69h" secondAttribute="leading" id="jlf-ZF-xa0"/>
+                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="01A-7v-0yG" secondAttribute="trailing" symbolic="YES" id="qIy-yY-NKS"/>
+                                                <constraint firstItem="01A-7v-0yG" firstAttribute="top" secondItem="e9o-nC-YAi" secondAttribute="bottom" constant="19" id="voq-5c-xew"/>
                                             </constraints>
-                                            <vibrancyEffect>
-                                                <blurEffect style="regular"/>
-                                            </vibrancyEffect>
-                                        </visualEffectView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swipe In Control" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e9o-nC-YAi">
-                                            <rect key="frame" x="95" y="234" width="185.5" height="23"/>
-                                            <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="23"/>
-                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="by Kunal Pandey" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="01A-7v-0yG">
-                                            <rect key="frame" x="173" y="276" width="107.5" height="13"/>
-                                            <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="13"/>
-                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                    </subviews>
-                                    <constraints>
-                                        <constraint firstItem="e9o-nC-YAi" firstAttribute="centerX" secondItem="Rwj-hP-69h" secondAttribute="centerX" id="4XA-2n-m7r"/>
-                                        <constraint firstItem="01A-7v-0yG" firstAttribute="leading" secondItem="507-m8-SAg" secondAttribute="trailing" constant="38" id="7vI-Rz-FG6"/>
-                                        <constraint firstItem="01A-7v-0yG" firstAttribute="top" secondItem="Rwj-hP-69h" secondAttribute="top" constant="276" id="DNM-Ly-MiK"/>
-                                        <constraint firstItem="507-m8-SAg" firstAttribute="top" secondItem="Rwj-hP-69h" secondAttribute="top" id="E31-fg-6So"/>
-                                        <constraint firstItem="01A-7v-0yG" firstAttribute="trailing" secondItem="e9o-nC-YAi" secondAttribute="trailing" id="et4-Kv-GtU"/>
-                                        <constraint firstItem="507-m8-SAg" firstAttribute="leading" secondItem="Rwj-hP-69h" secondAttribute="leading" id="jlf-ZF-xa0"/>
-                                        <constraint firstAttribute="trailing" secondItem="01A-7v-0yG" secondAttribute="trailing" constant="95" id="qIy-yY-NKS"/>
-                                        <constraint firstItem="01A-7v-0yG" firstAttribute="top" secondItem="e9o-nC-YAi" secondAttribute="bottom" constant="19" id="voq-5c-xew"/>
-                                    </constraints>
-                                </view>
-                                <blurEffect style="regular"/>
-                            </visualEffectView>
+                                        </view>
+                                        <blurEffect style="regular"/>
+                                    </visualEffectView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="a3o-TQ-V3Q" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="F3E-I0-w3r"/>
+                            <constraint firstAttribute="bottom" secondItem="a3o-TQ-V3Q" secondAttribute="bottom" id="Y6h-5m-843"/>
+                            <constraint firstAttribute="trailing" secondItem="a3o-TQ-V3Q" secondAttribute="trailing" id="hG3-Es-eyL"/>
+                            <constraint firstItem="a3o-TQ-V3Q" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="w5l-TC-7KB"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="swipeInControl" destination="a3o-TQ-V3Q" id="yDd-ll-X4W"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
